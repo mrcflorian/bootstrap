@@ -6250,13 +6250,24 @@ a.badge:focus {
 	height:14px;
 	width:80px;
 }
-
+.editProfile-btn{
+	margin-right:45px;
+}
 .editProfile input[type="text"]{
-	width:180px;
+	width:205px;
 }
 
 .editProfile select{
 	margin-bottom:0;
+}
+
+.editProfile th{
+	width:190px;
+}
+.editProfileChangePicture{
+	 margin-bottom: 9px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 #titluTabelListaTeme{
