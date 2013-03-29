@@ -6255,6 +6255,10 @@ a.badge:focus {
 	width:180px;
 }
 
+.editProfile select{
+	margin-bottom:0;
+}
+
 #titluTabelListaTeme{
   color: black;
 }
@@ -6286,3 +6290,4 @@ min-height: 200px;
    width: 450px;
    height: 200px;
 }
+
