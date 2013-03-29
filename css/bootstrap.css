@@ -24,11 +24,6 @@
 }
 
 
-
-.bottom-logo{
-	width:120px;
-	margin:70px auto;
-}
 .hide-text {
   font: 0/0 a;
   color: transparent;
@@ -6243,7 +6238,15 @@ a.badge:focus {
 
 .container-narrow{
 	width:800px;
+	min-height:430px;
 }
+
+
+.bottom-logo{
+	width:120px;
+	margin:70px auto 0;
+}
+
 
 .table input[type="text"]{
 	margin:0;
