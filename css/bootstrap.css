@@ -6287,7 +6287,23 @@ min-height: 200px;
   margin: 12px 300px auto;
 }
 .containerBarChart{
-   width: 450px;
-   height: 200px;
+   width: 438px;
+   height: 350px;
+   margin-left: 35px;
 }
-
+.celulaStatistici{
+  float: right;
+  width: 100px;
+}
+.baraStatistici{
+  width: 250px;
+}
+.tabelStatistici{
+  margin-bottom: 40px;
+}
+.tabelStatistici td{
+  border-top: 0px;
+}
+.containerServiciiConexe{
+  width: 650px;
+}
