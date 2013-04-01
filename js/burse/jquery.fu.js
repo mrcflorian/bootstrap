@@ -993,11 +993,9 @@ qq.FineUploaderBasic.prototype = {
             return false;
         }
     },
-  /*
-  cancel: function(id) {
+    cancel: function(id) {
         this._handler.cancel(id);
     },
-*/
     cancelAll: function() {
         var storedIdsCopy = [],
             self = this;
@@ -2112,9 +2110,9 @@ qq.FineUploader = function(o){
             '<span class="qq-upload-finished"></span>' +
             '<span class="qq-upload-file"></span>' +
             '<span class="qq-upload-size"></span>' +
-            '<a class="qq-upload-cancel" href="#">{cancelButtonText}</a>' +
-            '<a class="qq-upload-retry" href="#">{retryButtonText}</a>' +
-            '<a class="qq-upload-delete" href="#">{deleteButtonText}</a>' +
+            '<a class="qq-upload-cancel" style="padding-left:10px" href="#">{cancelButtonText}</a>' +
+           // '<a class="qq-upload-retry" href="#">{retryButtonText}</a>' +
+           // '<a class="qq-upload-delete" href="#">{deleteButtonText}</a>' +
             '<span class="qq-upload-status-text">{statusText}</span>' +
             '</li>',
         classes: {
